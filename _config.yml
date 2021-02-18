@@ -6,7 +6,7 @@ url: "https://awhisnan.github.io/"
 theme_settings:
   # Meta
   title: Austin Whisnant
-  avatar: assets/img/avatar.png
+  avatar: 
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
   description: "A website with blog posts and pages" # used by search engines
@@ -27,7 +27,7 @@ theme_settings:
   facebook:
   flickr:
   gitlab:
-  github: "https://github.com/sei-awhisnant"
+  github: "sei-awhisnant"
   gitter:
   google_plus:
   instagram:

@@ -1,69 +1,8 @@
 # Type Theme
 
-![Default Type Theme blog](https://user-images.githubusercontent.com/816965/30518919-d5978024-9bcd-11e7-81b3-3dd07e99a1f9.png)
-
-A free and open-source [Jekyll](https://jekyllrb.com) theme. Great for blogs and easy to customize.
-
-[Demo](https://rohanchandra.github.io/type-theme/)
-
-## Usage
-
-1. Fork and clone the [Type Theme repo](https://github.com/rohanchandra/type-theme): `git clone https://github.com/rohanchandra/type-theme`
-2. [Install Jekyll](https://jekyllrb.com/docs/installation/): `gem install jekyll`
-3. Install the theme's dependencies: `bundle install`
-4. Customize the theme (see below)
-5. Run the Jekyll server: `jekyll serve`
-
-## Customizing Type Theme
-
 Open `_config.yml` in a text editor to change most of the blog's settings.
 
 If a variable in this document is marked as "optional", disable the feature by removing all text from the variable. For example, to prevent the avatar from rendering in the header, the avatar line should read:
-
-```yml
-theme:
-  title: Type Theme
-  avatar:
-  gravatar:
-```
-
-Notice the avatar variable is left intentionally blank.
-
-Below is a summary of the configuration options in Type Theme.
-
-### Site configuration
-The most common configurations, included here for guidance, are:
-
-Jekyll website *without* a subpath (such as a GitHub Pages website for a given username):
-
-```yml
-# SITE CONFIGURATION
-baseurl: ""
-url: "https://username.github.io"
-```
-
-Jekyll website *with* subpath (like the Type Theme demo page):
-
-```yml
-# SITE CONFIGURATION
-baseurl: "/sub-directory"
-url: "https://username.github.io/"
-```
-
-Please configure this in `_config.yml` before using the theme.
-
-### Meta
-
-Meta variables hold basic information about your Jekyll site which will be used throughout the site and as meta properties for search engines, browsers, and the site's RSS feed.
-
-Change these variables in `_config.yml`:
-
-| Variable    | Example                          | Description                                                                                                                    | Optional |
-| ----------- | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ | -------- |
-| title       | My Jekyll Blog                   | Name of website                                                                                                                | Yes      |
-| avatar      | assets/img/avatar.png            | Path of avatar image, to be displayed in the theme's header                                                                    | Yes      |
-| gravatar    | f9879d71855b5ff21e4963273a886bfc | [MD5 hash of your email address](https://secure.gravatar.com/site/implement/hash/) to load your Gravatar in the theme's header | Yes      |
-| description | My blog posts                    | Short description, primarily used by search engines                                                                            | Yes      |
 
 ### Header and footer text
 
@@ -132,14 +71,6 @@ Mozilla's [ColorPicker](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Col
 
 If you're using Type Theme as a `remote_theme`, you can override variables and styles.
 To do so, simply create a `assets/css/main.scss` file on your website with the following content:
-
-```scss
-// assets/css/main.scss
----
----
-
-@import "type-theme";
-```
 
 `@import "type-theme";` includes the theme styles, so you can add custom imports before and after it, depending on your needs.
 Best practice is to put your custom files in the `_sass` folder of your project. Jekyll will automatically look for them there.
@@ -293,6 +224,3 @@ title: "This is a title"
 subtitle: "This is a subtitle"
 ---
 ```
-
-## License
-[The MIT License (MIT)](https://github.com/rohanchandra/type-theme/blob/master/LICENSE)
