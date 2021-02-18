@@ -22,5 +22,5 @@ Bio...
 ## Courses Taught
 
 University of Pittsburgh ([Pitt](https://www.pitt.edu/)):
-- Cybersecurity Policy (PIA 2360) - Graduate School of Public and International Affairs ([GSPIA](https://www.gspia.pitt.edu/))
-- Network Security (TELCOM 2821) - School of Computing and Information ([SCI](https://www.sci.pitt.edu/))
+- Cybersecurity Policy (PIA 2360) - Graduate School of Public and International Affairs ([GSPIA](https://www.gspia.pitt.edu/)) (Spring '20, Spring '21)
+- Network Security (TELCOM 2821) - School of Computing and Information ([SCI](https://www.sci.pitt.edu/)) (Fall '18, Fall '19)
